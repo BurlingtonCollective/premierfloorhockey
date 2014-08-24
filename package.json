@@ -1,0 +1,25 @@
+{
+  "name": "premierfloorhockey",
+  "version": "0.0.0",
+  "description": "premierfloorhockey ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BurlingtonCollective/premierfloorhockey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BurlingtonCollective/premierfloorhockey/issues"
+  },
+  "homepage": "https://github.com/BurlingtonCollective/premierfloorhockey",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

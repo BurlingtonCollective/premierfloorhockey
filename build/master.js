@@ -1,0 +1,2 @@
+var app=angular.module("leagueApp",["ngRoute","firebase","app.controllers","app.services","app.directives"]),controllers=angular.module("app.controllers",[]),services=angular.module("app.services",[]);directives=angular.module("app.directives",[]),app.config(["$routeProvider",function(a){a.when("/",{templateUrl:"partials/layout/home.html",controller:"HomeCtrl",pageTitle:"Home"})}]),controllers.controller("HomeCtrl",["$scope",function(){console.log("hello world")}]);
+//# sourceMappingURL=master.js.map
