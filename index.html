@@ -5,9 +5,53 @@
 	<link rel="stylesheet" href="css/master.css">
 </head>
 <body>
+	<header>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Premier Floor Hockey of Vermont</a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right hidden-xs">
+		    	<li><a href="#">Registration</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<nav class="navbar navbar-default collapse navbar-collapse" role="navigation" id="main-nav">
+		  <div class="container">
+	    	<div class="btn-group btn-group-justified">
+	    		<a href="#" class="btn btn-default">Home</a>
+	    		<a href="#" class="btn btn-default">Rosters</a>
+	    		<a href="#" class="btn btn-default">Schedule</a>
+	    		<div class="btn-group">
+	    			<a href="#" data-toggle="dropdown" class="btn btn-default">Standings</a>
+	    			<ul class="dropdown-menu" role="menu">
+	    				<li><a href="#">Overview</a></li>
+	    				<li><a href="#">League Leaders</a></li>
+		    		</ul>
+	    		</div>		    		
+	    		<a href="#" class="btn btn-default">About Us</a>
+	    		<a href="#" class="btn btn-primary visible-xs">Registration</a>
+	    	</div>
+	    </div>
+		</nav>
+	</header>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Hello, world!</h1>
+		  <p>...</p>
+		  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+		</div>
+	</div>
 
-	<div ng-view></div>
 
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
 	<script type="text/javascript" src="bower_components/firebase/firebase.js"></script>
