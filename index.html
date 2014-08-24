@@ -17,9 +17,7 @@
 		      </button>
 		      <a class="navbar-brand" href="#">Premier Floor Hockey of Vermont</a>
 		    </div>
-		    <ul class="nav navbar-nav navbar-right hidden-xs">
-		    	<li><a href="#">Registration</a></li>
-		    </ul>
+		    <a href="#/registration" class="btn btn-primary navbar-btn navbar-right hidden-xs">Registration</a>
 		  </div>
 		</nav>
 		<nav class="navbar navbar-default collapse navbar-collapse" role="navigation" id="main-nav">
@@ -29,20 +27,20 @@
 	    		<a href="#" class="btn btn-default">Rosters</a>
 	    		<a href="#" class="btn btn-default">Schedule</a>
 	    		<div class="btn-group">
-	    			<a href="#" data-toggle="dropdown" class="btn btn-default">Standings</a>
+	    			<a href="#" data-toggle="dropdown" class="btn btn-default">Standings <span class="caret"></span></a>
 	    			<ul class="dropdown-menu" role="menu">
 	    				<li><a href="#">Overview</a></li>
 	    				<li><a href="#">League Leaders</a></li>
 		    		</ul>
 	    		</div>		    		
 	    		<a href="#" class="btn btn-default">About Us</a>
-	    		<a href="#" class="btn btn-primary visible-xs">Registration</a>
+	    		<a href="#/registration" class="btn btn-primary visible-xs">Registration</a>
 	    	</div>
 	    </div>
 		</nav>
 	</header>
 	<div ng-view replace="true"></div>
-	
+
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>

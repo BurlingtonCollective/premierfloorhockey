@@ -8,8 +8,8 @@ module.exports = function(grunt){
 				files: {
 					'build/master.js': [
 						'js/main.js',
-						'js/controllers/HomeCtrl.js'
-						// 'js/controllers/ProjectsCtrl.js',
+						'js/controllers/homeCtrl.js',
+						'js/controllers/registrationCtrl.js'
 						// 'js/services/contactService.js'
 					]
 				}

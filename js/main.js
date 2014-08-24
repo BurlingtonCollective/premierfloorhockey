@@ -10,5 +10,10 @@ app.config(['$routeProvider', function($routeProvider){
 			templateUrl: 'partials/layout/home.html',
 			controller: 'HomeCtrl',
 			pageTitle: 'Home'
+		})
+		.when('/registration', {
+			templateUrl: 'partials/layout/registration.html',
+			controller: 'RegistrationCtrl',
+			pageTitle: 'Registration'
 		});
 }])
